@@ -1,0 +1,25 @@
+body {background-color: black;}
+
+h1 {
+	text-align: center;
+	color: white;
+}
+
+p {
+	text-align: center;
+	color: white;
+}
+
+p.video_text {
+	color: red;
+}
+
+button {
+	color: black;
+	background-color: white;
+	padding: 10px 10px;
+	text-decoration: none;
+	display: inline-block;
+	outline-style: outset;
+	outline-color: black;
+}
