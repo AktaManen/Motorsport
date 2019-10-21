@@ -6,6 +6,16 @@
 	<body>
 		<link href="styles/style.css" rel="stylesheet">
 		<h1>World endurance championship</h1>
-		<img src="bilder/startbild.pdf">
+		<img src="bilder/startbild.pdf" width="1270" height="631">
+		<p class="video_text">World endurance championship Shanghai teaser</p>
+		<video controls width="" height="367">
+			<source src="videor/video.mp4" type="video/mp4">
+		</video>
+		<p>Nästa World endurance championship kommer att köras i Shanghai. I detta loppet kommer förarna att köra i fyra timmar.</p>
+		<button type="button"
+		onclick="document.getElementById('klocka').innerHTML = Date()">
+		Tryck här för att se din tid.</button>
+		<p id="klocka"></p>
+		<p>Nästa lopp startar <br>Sön Nov 10 2019 05:00:00 GMT+0200 (centraleuropeisk sommartid)</p>
 	</body>
 </html>
